@@ -5,9 +5,10 @@
 #include <array>
 #include <fstream>
 using namespace std;
-
+// kas cia ?
 struct knyga
 {
+    // tau cia ne dziumbrynas kad knygas skaitytum
     string Pavadinimas = "";
     string Autorius = "";
     int puslapiuSkaicius =0;
@@ -15,13 +16,14 @@ struct knyga
 };
 
 void teigiamas(int *x);
-
+// pamirsk tu mano varda
 ///3
 int seniausiaiIsleistaKnyga(knyga *passBook, int sz);
 int daugiausiaiPuslapiu(knyga *passBook, int sz);
 void arTiePatysAutoriai(knyga *passBook, int sz);
 int main()
 {
+   
     ///rand default set
         srand (time(NULL));
     int uzduotiesID = 0;
